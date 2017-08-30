@@ -1,0 +1,34 @@
+{
+  "name": "react-data-ui-concept",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server/server.js --ignore components",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kweiberth/react-todo-list.git"
+  },
+  "author": "Sigmund Tang",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-react-hmre": "^1.1.1",
+    "express": "^4.13.4",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "underscore": "^1.8.3",
+    "webpack": "^1.12.13",
+    "webpack-dev-middleware": "^1.10.2",
+    "webpack-hot-middleware": "^2.18.0"
+  }
+}
